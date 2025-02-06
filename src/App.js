@@ -1,33 +1,36 @@
-import React, { Component } from 'react'; // Import Component
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './componentes/navbar';
+import QuienesSomos from './componentes/quienesSomos';
+import QueHacemos from './componentes/queHacemos';
+import Actividades from './componentes/Actividades';
+import Footer from './componentes/footer';
 import './App.css';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      newTask: "",
-    };
-  }
-
-  handleInputChange = (event) => {
-    this.setState({ newTask: event.target.value });
-  };
-
-  render() {
-    return (
-      <div className="container">
-        <h1 className="title">
-          Hello world <span aria-label="emoji" role="img">🔥</span>
-        </h1>
-        <input
-          type="text"
-          className="new-task"
-          value={this.state.newTask}
-          onChange={this.handleInputChange}
-        />
+function App() {
+  return (
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/quienes-somos" element={<QuienesSomos />} />
+          <Route path="/que-hacemos" element={<QueHacemos />} />
+          <Route path="/Actividades" element={<Actividades />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <QuienesSomos />
+                <QueHacemos />
+                <Actividades />
+              </>
+            }
+          />
+        </Routes>
+        <Footer />
       </div>
-    );
-  }
+    </Router>
+  );
 }
 
 export default App;
