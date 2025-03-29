@@ -1,0 +1,10 @@
+.quienes-somos-section {
+  padding: 2rem;
+  text-align: center; 
+}
+
+.quienes-somos-section img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem; 
+}
