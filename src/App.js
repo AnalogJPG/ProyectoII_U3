@@ -4,6 +4,7 @@ import Navbar from './componentes/Navbar/Navbar';
 import QuienesSomos from './componentes/QuienesSomos/QuienesSomos';
 import QueHacemos from './componentes/QueHacemos/QueHacemos';
 import Actividades from './componentes/Actividades/Actividades';
+import Formulario from './componentes/Formulario/Formulario'; // ✅ Importa el formulario
 import Patrocinadores from './componentes/Patrocinadores/Patrocinadores';
 import Footer from './componentes/Footer/Footer';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/quienes-somos" element={<QuienesSomos />} />
           <Route path="/que-hacemos" element={<QueHacemos />} />
           <Route path="/actividades" element={<Actividades />} />
+          <Route path="/actividades/:actividad/formulario" element={<Formulario />} /> {/* ✅ Nueva ruta */}
         </Routes>
         <Footer />
       </div>
