@@ -8,3 +8,14 @@
   height: auto;
   margin-bottom: 1rem; 
 }
+
+.quienes-somos-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.quienes-somos-section img {
+  max-width: 900px; 
+  height: auto;
+  margin-bottom: 1rem;
+}

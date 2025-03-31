@@ -8,3 +8,14 @@
   height: auto;
   margin-bottom: 1rem; 
 }
+
+.que-hacemos-section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.que-hacemos-section img {
+  max-width: 900px;
+  height: auto;
+  margin-bottom: 1rem;
+}
