@@ -1,0 +1,21 @@
+.virtual-meetings {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .virtual-meetings h2 {
+    color: #333;
+  }
+  
+  .past-conferences {
+    margin-top: 20px;
+  }
+  
+  .conference-summary {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+  }
