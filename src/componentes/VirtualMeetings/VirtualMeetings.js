@@ -3,7 +3,7 @@ import Countdown from 'react-countdown';
 import './VirtualMeetings.css';
 
 const VirtualMeetings = () => {
-  const meetingDate = new Date('2025-04-30T23:59:59').getTime(); // Fecha: 30 de abril de 2025
+  const meetingDate = new Date('2025-04-30T23:59:59').getTime(); // Cambio de fecha aqui
 
   const renderer = ({ days, hours, minutes, seconds, completed }) => {
     if (completed) {
