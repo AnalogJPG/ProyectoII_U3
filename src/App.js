@@ -8,7 +8,7 @@ import CalendarEvents from './componentes/CalendarEvents/CalendarEvents';
 import VirtualMeetings from './componentes/VirtualMeetings/VirtualMeetings'; 
 import Patrocinadores from './componentes/Patrocinadores/Patrocinadores';
 import Footer from './componentes/Footer/Footer';
-import TablaDeReuniones from './componentes/TablaDeReuniones/TablaDeReuniones'; 
+import TablaDeReuniones from './componentes/TablaDeEncargados/TablaDeEncargados'; 
 import './App.css';
 
 function App() {

@@ -1,0 +1,53 @@
+.tabla-reuniones-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.tabla-reuniones-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.tabla-reuniones {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabla-reuniones th,
+.tabla-reuniones td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-reuniones th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.tabla-reuniones tr:hover {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+  .tabla-reuniones-container {
+    padding: 1rem;
+  }
+
+  .tabla-reuniones th,
+  .tabla-reuniones td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .tabla-reuniones-container h2 {
+    font-size: 1.4rem;
+  }
+}
